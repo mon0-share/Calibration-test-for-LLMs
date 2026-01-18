@@ -2,21 +2,13 @@
 
 This repo is a small, self-contained experiment for measuring model calibration on a test made by a human. 
 
-prompt.txt
+prompt.txt: the test.
 
-The test.
+correct_answers.txt: the answers to the test.
 
-correct_answers.txt
+answers1.jsonl: ChatGPT 5.2 answers in 50 runs to the test collected through the OpenAI API.
 
-The answers to the test.
-
-answers1.jsonl
-
-ChatGPT 5.2 answers in 50 runs collected through the OpenAI API.
-
-analyze_calibration.py
-
-Analysis script. Reads model responses + confidence, compares against ground truth, and reports calibration metrics.
+analyze_calibration.py: analysis script. Reads model responses + confidence, compares against ground truth, and reports calibration metrics.
 
 
 
